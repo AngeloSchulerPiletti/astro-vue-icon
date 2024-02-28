@@ -9,6 +9,9 @@
     "url": "git+https://github.com/AngeloSchulerPiletti/astro-vue-icon"
   },
   "scripts": {
+    "release": "pnpm run lint && release-it major --preRelease=beta",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
   },
   "devDependencies": {
     "@antfu/eslint-config": "2.6.4",
