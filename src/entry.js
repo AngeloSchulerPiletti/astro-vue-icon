@@ -1,3 +1,3 @@
-import IconCSS from './IconCSS.vue';
+import Icon from './Icon.vue';
 
-export default IconCSS;
+export default Icon;
