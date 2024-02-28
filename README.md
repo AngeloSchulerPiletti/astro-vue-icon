@@ -4,7 +4,7 @@ This library was created inspired in [Nuxt Icon](https://nuxt.com/modules/icon)
 
 - :white_check_mark: Icons loaded as CSS, not inside the DOM;
 - :white_check_mark: Support to dynamic Icon names;
-- :white_check_mark: Support to all [iconify icons](https://icon-sets.iconify.design/); 
+- :white_check_mark: Support to all [iconify icons](https://icon-sets.iconify.design/);
 - :white_check_mark: out of the box;
 
 ### Why
@@ -32,16 +32,16 @@ defineProps<Props>();
         'flex items-center gap-1': leftIcon || rightIcon,
     }"
   >
-    <span 
-      v-if="leftIcon" 
-      :class="`${leftIcon} h-5 w-5`" 
+    <span
+      v-if="leftIcon"
+      :class="`${leftIcon} h-5 w-5`"
     />
     <span>
       <slot />
     </span>
-    <span 
-      v-if="rightIcon" 
-      :class="`${rightIcon} h-5 w-5`" 
+    <span
+      v-if="rightIcon"
+      :class="`${rightIcon} h-5 w-5`"
     />
   </button>
 </template>
@@ -61,7 +61,7 @@ To enhance as much as possible the performance, icons are loaded directly from `
 pnpm add -D astro-vue-icon
 ```
 
-### Use 
+### Use
 
 ```vue
 <script setup lang="ts">
@@ -84,15 +84,15 @@ defineProps<Props>();
         'flex items-center gap-1': leftIcon || rightIcon,
     }"
   >
-    <Icon 
-      v-if="leftIcon" 
+    <Icon
+      v-if="leftIcon"
       :name="leftIcon"
     />
     <span>
       <slot />
     </span>
-    <Icon 
-      v-if="rightIcon" 
+    <Icon
+      v-if="rightIcon"
       :name="rightIcon"
     />
   </button>
