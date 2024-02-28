@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed } from "vue";
+import { computed } from 'vue'
 
 const props = defineProps({
   name: {
@@ -8,46 +8,46 @@ const props = defineProps({
   },
   size: {
     type: String,
-    default: "",
+    default: '',
   },
-});
+})
 
-function resolveIconName(name: string = "") {
-  let prefix = "";
-  let provider = "";
+function resolveIconName(name) {
+  let prefix = ''
+  let provider = ''
 
-  if (name[0] === "@" && name.includes(":")) {
-    provider = name.split(":")[0].slice(1);
-    name = name.split(":").slice(1).join(":");
+  if (name[0] === '@' && name.includes(':')) {
+    provider = name.split(':')[0].slice(1)
+    name = name.split(':').slice(1).join(':')
   }
 
-  if (name.includes(":")) {
-    const [_prefix, _name] = name.split(":");
+  if (name.includes(':')) {
+    const [_prefix, _name] = name.split(':')
 
-    prefix = _prefix;
-    name = _name;
+    prefix = _prefix
+    name = _name
   }
 
   return {
     provider,
-    prefix: prefix || "",
-    name: name || "",
-  };
+    prefix: prefix || '',
+    name: name || '',
+  }
 }
 
-const resolvedIcon = computed(() => resolveIconName(props.name));
+const resolvedIcon = computed(() => resolveIconName(props.name))
 
 const iconUrl = computed(() => {
-  return `url('https://api.iconify.design/${resolvedIcon.value.prefix}/${resolvedIcon.value.name}.svg')`;
-});
+  return `url('https://api.iconify.design/${resolvedIcon.value.prefix}/${resolvedIcon.value.name}.svg')`
+})
 
 const sSize = computed(() => {
-  const size = props.size || "1em";
-  if (String(Number(size)) === size) {
-    return `${size}px`;
-  }
-  return size;
-});
+  const size = props.size || '1em'
+  if (String(Number(size)) === size)
+    return `${size}px`
+
+  return size
+})
 </script>
 
 <template>
