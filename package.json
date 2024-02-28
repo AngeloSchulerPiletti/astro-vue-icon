@@ -10,16 +10,16 @@
     "url": "git+https://github.com/AngeloSchulerPiletti/astro-vue-icon"
   },
   "keywords": [],
-  "engines": {
-    "node": "^20.11.1",
-    "pnpm": "^8.14.0"
-  },
   "main": "dist/astro-vue-icon.umd.cjs",
   "module": "dist/astro-vue-icon.js",
   "files": [
     "dist",
     "src"
   ],
+  "engines": {
+    "node": "^20.11.1",
+    "pnpm": "^8.14.0"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
@@ -35,9 +35,9 @@
     "eslint": "8.57.0",
     "release-it": "17.1.1",
     "rollup": "4.12.0",
+    "typescript": "^5.2.2",
     "vite": "5.1.4",
     "vue": "3.4.21",
-    "typescript": "^5.2.2",
     "vue-tsc": "^1.8.27"
   }
 }
