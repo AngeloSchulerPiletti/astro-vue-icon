@@ -1,7 +1,7 @@
 {
   "name": "astro-vue-icon",
   "type": "module",
-  "version": "1.0.0-beta.3",
+  "version": "1.0.0-beta.4",
   "description": "Astro Vue Icon is a Vue component that allows you to use iconify icons in your Vue components inside Astro.",
   "author": "Angelo Schuler Piletti",
   "license": "ISC",

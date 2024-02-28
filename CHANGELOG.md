@@ -1,5 +1,18 @@
 
 
+## [1.0.0-beta.4](https://github.com/AngeloSchulerPiletti/astro-vue-icon/compare/1.0.0-beta.3...1.0.0-beta.4) (2024-02-28)
+
+
+### 🪲 Bug Fixes
+
+* :bug: type function name arg ([f9b2918](https://github.com/AngeloSchulerPiletti/astro-vue-icon/commit/f9b2918dcb1abbe64c10bf9b52817cba06ff70e8))
+
+
+### ⚙️ Chore
+
+* :wrench: add tsconfig configuration ([cf9e739](https://github.com/AngeloSchulerPiletti/astro-vue-icon/commit/cf9e739d5217f28094e4f0755caf5bf26f0b13d2))
+* :wrench: setup for module export ([2451999](https://github.com/AngeloSchulerPiletti/astro-vue-icon/commit/24519996ad2affc7e71cb1e845e733a0536aafa3))
+
 ## [1.0.0-beta.3](https://github.com/AngeloSchulerPiletti/astro-vue-icon/compare/1.0.0-beta.2...1.0.0-beta.3) (2024-02-28)
 
 
