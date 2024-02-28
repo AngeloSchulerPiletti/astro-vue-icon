@@ -12,7 +12,7 @@ const props = defineProps({
   },
 })
 
-function resolveIconName(name) {
+function resolveIconName(name: string) {
   let prefix = ''
   let provider = ''
 
