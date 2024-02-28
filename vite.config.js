@@ -1,13 +1,14 @@
 import { defineConfig } from 'vite';
+import { resolve } from 'path'
 import vue from '@vitejs/plugin-vue';
 
 export default defineConfig({
   plugins: [vue()],
   build: {
     lib: {
-      entry: 'src/entry.js',
+      entry: resolve(__dirname, 'src/entry.js'),
       name: 'AstroVueIcon',
-      fileName: (format) => `astro-vue-icon.${format}.js`
+      fileName: 'astro-vue-icon',
     },
     rollupOptions: {
       external: ['vue'],
