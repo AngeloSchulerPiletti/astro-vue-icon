@@ -1,5 +1,21 @@
 
 
+## [1.0.0-beta.3](https://github.com/AngeloSchulerPiletti/astro-vue-icon/compare/1.0.0-beta.2...1.0.0-beta.3) (2024-02-28)
+
+
+### 📂 Documentation
+
+* :memo: add readme ([5264b61](https://github.com/AngeloSchulerPiletti/astro-vue-icon/commit/5264b61c69142ca39ba74b3926f3111dad044b38))
+
+
+### ⚙️ Chore
+
+* :rocket: delivery as module ([8512382](https://github.com/AngeloSchulerPiletti/astro-vue-icon/commit/85123825a82bbbb2ea729f9a106c57918a3b37c7))
+* :technologist: ignore readme on eslint ([524e017](https://github.com/AngeloSchulerPiletti/astro-vue-icon/commit/524e0171c56b21d6cebd78fa3e062acdd3703a37))
+* :truck: rename entry point to module js ([02f827a](https://github.com/AngeloSchulerPiletti/astro-vue-icon/commit/02f827a50dbc1d89c4920bfbb131517300c55618))
+* :wrench: correctly load entry point ([d4bf278](https://github.com/AngeloSchulerPiletti/astro-vue-icon/commit/d4bf2789c9d1c634d7b5fd28fa25e4f2d4b9f53a))
+* :wrench: eslint ignore files ([f12bb55](https://github.com/AngeloSchulerPiletti/astro-vue-icon/commit/f12bb55b8fe4c1b765c71b7d671e3c83c89272b6))
+
 ## 1.0.0-beta.2 (2024-02-28)
 
 
