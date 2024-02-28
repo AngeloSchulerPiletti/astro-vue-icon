@@ -13,10 +13,7 @@ There was no solution in Astro for Vue components that needed to use dynamic ico
 
 ```vue
 <script setup lang="ts">
-import type { VariantTypes, SizeTypes } from "@/types/clicable.types.ts";
-import IconCSS from "astro-vue-icon/src/IconCSS.vue";
-
-export interface Props {
+interface Props {
   href?: string;
   rightIcon?: string;
   leftIcon?: string;
@@ -65,10 +62,9 @@ pnpm add -D astro-vue-icon
 
 ```vue
 <script setup lang="ts">
-import type { VariantTypes, SizeTypes } from "@/types/clicable.types.ts";
 import Icon from "astro-vue-icon";
 
-export interface Props {
+interface Props {
   href?: string;
   rightIcon?: string;
   leftIcon?: string;
