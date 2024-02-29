@@ -1,5 +1,12 @@
 
 
+## [1.0.0-beta.5](https://github.com/AngeloSchulerPiletti/astro-vue-icon/compare/1.0.0-beta.4...1.0.0-beta.5) (2024-02-29)
+
+
+### 📂 Documentation
+
+* :memo: update use example ([c341f35](https://github.com/AngeloSchulerPiletti/astro-vue-icon/commit/c341f35e983e88fa606ffca988b69ba9dbc9c81a))
+
 ## [1.0.0-beta.4](https://github.com/AngeloSchulerPiletti/astro-vue-icon/compare/1.0.0-beta.3...1.0.0-beta.4) (2024-02-28)
 
 
