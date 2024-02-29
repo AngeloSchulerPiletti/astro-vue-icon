@@ -62,7 +62,7 @@ pnpm add -D astro-vue-icon
 
 ```vue
 <script setup lang="ts">
-import Icon from "astro-vue-icon";
+import Icon from "astro-vue-icon/src/Icon.vue";
 
 interface Props {
   href?: string;
